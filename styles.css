@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+.mn{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(9, 62, 110);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fcc{
+    width: 18vmax;
+    margin: 2rem 0;
+}
+
+.head{
+    color: #fff;
+    font-size: 3vmax;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.card-wrapper{
+    position: relative;
+    height: 38vmax;
+    width: 28vmax;
+    background: linear-gradient(rgb(248, 248, 48),rgb(129, 129, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(39, 39, 39, 0.5);
+}
+
+.card{
+    height: 37vmax;
+    width: 27vmax;  
+    background-color: #f3f3f3;
+    border-radius: 20px;
+}
+
+.search-form{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.label{
+    font-size: 1vmax;;
+    margin: .5rem 0;
+}
+
+.search-input{
+    height: 40%;
+    width: 60%;
+    font-size: 1.2vmax;
+    padding: 0 1rem;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.search-button{
+    height: 40%;
+    width: 20%;
+    font-size: 1vmax;
+    background-color: rgb(9, 62, 110);
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid rgb(9, 62, 110);
+}
+
+.output{
+    width: 100%;
+    height: 85%;
+}
+
+.cnt{
+    height: 50%;
+    width: 100%;
+}
+
+.top-container{
+    background-color: #e4e4e4;
+}
+
+.name-and-id{
+    width: 100%;
+    height: 15%;
+    font-size: 1.2vmax;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.size{
+    width: 100%;
+    height: 10%;
+    font-size: .7vmax;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.sprite-container{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sprite{
+    height: 160px;
+    width: 160px;
+}
+
+.types{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5vmax;
+    padding: 0 .5vmax;
+}
+
+.type{
+    display: grid;
+    height: 80%;
+    width: auto;
+    border-radius: 5px;
+    place-items: center;
+    font-size: 1vmax;
+    text-transform: capitalize;
+    background-color: rgba(39, 39, 39, 0.5);
+    padding: 0 .7vmax;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+th{
+    font-size: 1.1vmax;
+    font-weight: 400;
+    background-color: rgb(14, 42, 68);
+    color: #fff;
+    border: 1px solid;
+}
+
+td{
+    font-size: 1vmax;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: rgb(183, 218, 252);
+}
