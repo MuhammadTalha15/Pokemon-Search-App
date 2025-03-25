@@ -25,7 +25,7 @@ This is a Pokémon Search App built using **HTML, JavaScript, and an API** from 
 3. View the Pokémon's details, including type and abilities.
 
 ## API Used
-This project uses the **PokéAPI**: [https://pokeapi-proxy.freecodecamp.rocks/api/pokemon)
+This project uses the **PokéAPI**: https://pokeapi-proxy.freecodecamp.rocks/api/pokemon
 
 ## License
 This project is licensed under the MIT License.
